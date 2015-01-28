@@ -1,16 +1,21 @@
-<snippet>
-  <content><![CDATA[
-# ${1:Project Name}
 
-TODO: Write a project description
+Materialize Gulp Starter Template
 
 ## Installation
 
-TODO: Describe the installation process
+`npm install`
+
+If you are on mac or linux and have installation issues make sure to use sudo command 
+`sudo npm install`
 
 ## Usage
 
-TODO: Write usage instructions
+`gulp`
+
+Go to localhost:8080 to see the site
+Minified files will be placed in build folder
+
+Keep in mind that nothing is included except the basic file structure.  Add your own css/scss/js to appropriate files in root assets folder.
 
 ## Contributing
 
@@ -20,17 +25,7 @@ TODO: Write usage instructions
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## History
-
-TODO: Write history
-
 ## Credits
 
-TODO: Write credits
-
-## License
-
-TODO: Write license
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
+Materialize css can be found at http://materializecss.com/
+More info about gulp can be found at http://gulpjs.com/
