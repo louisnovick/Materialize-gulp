@@ -1,21 +1,21 @@
 {
   "name": "louisnovick",
   "version": "1.0.0",
-  "description": "louisnovick portfolio",
+  "description": "louisnovick",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/louisnovick/louisnovick.github.io"
+    "url": "https://github.com/louisnovick/Materialize-gulp"
   },
   "author": "Louis Novick",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/louisnovick/louisnovick.github.io/issues"
+    "url": "https://github.com/louisnovick/Materialize-gulp/issues"
   },
-  "homepage": "https://github.com/louisnovick/louisnovick.github.io",
+  "homepage": "https://github.com/louisnovick/Materialize-gulp",
   "devDependencies": {
     "gulp-clean": "^0.3.1",
     "gulp-concat": "^2.4.3",
