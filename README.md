@@ -1,21 +1,28 @@
 
-Materialize Gulp Starter Template
+# Materialize Gulp Starter Template
 
 ## Installation
 
 `npm install`
 
+
 If you are on mac or linux and have installation issues make sure to use sudo command 
+
+
 `sudo npm install`
 
 ## Usage
 
 `gulp`
 
+
 Go to localhost:8080 to see the site
+
 Minified files will be placed in build folder
 
-Keep in mind that nothing is included except the basic file structure.  Add your own css/scss/js to appropriate files in root assets folder.
+Keep in mind that nothing is included except the basic file structure.  
+
+Add your own css/scss/js to appropriate files in root assets folder.
 
 ## Contributing
 
@@ -28,4 +35,5 @@ Keep in mind that nothing is included except the basic file structure.  Add your
 ## Credits
 
 Materialize css can be found at http://materializecss.com/
+
 More info about gulp can be found at http://gulpjs.com/
