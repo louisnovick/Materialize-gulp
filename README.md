@@ -20,7 +20,9 @@ Go to localhost:8080 to see the site
 
 Minified files will be placed in build folder
 
-Keep in mind that nothing is included except the basic file structure.  
+Keep in mind that nothing is included except the basic file structure and materialize.  
+
+I have also included the fonts that come with the Materialize css framework.  To use them you must create an @fontface for them in your own css/scss files.
 
 Add your own css/scss/js to appropriate files in root assets folder.
 
