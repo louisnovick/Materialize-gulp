@@ -23,7 +23,7 @@ gulp.task('scripts', function() {
 });
 
 gulp.task('css', function() {  
-  return gulp.src(['assets/css/**/*.css', 'assets/scss/**/*.scss']) 
+  return gulp.src(['assets/scss/**/*.scss', 'assets/css/**/*.css']) 
       .pipe(sass({style: 'compressed', errLogToConsole: true}))  // Compile sass
       .pipe(concat('app.min.css'))                               // Concat all css
       .pipe(minifycss())                                         // Minify the CSS
@@ -45,7 +45,7 @@ gulp.task('webserver', function() {
 // Then rebuild the js and css files
 
 gulp.task('watch', function(){
-  gulp.watch(['assets/css/**/*.css','assets/scss/**/*.scss'], ['css']); // Watch and run sass on changes
+  gulp.watch(['assets/scss/**/*.scss','assets/css/**/*.css'], ['css']); // Watch and run sass on changes
   gulp.watch('assets/js/**/*.js', ['scripts']); // Watch and run javascripts on changes
   gulp.src('assets/*')
     .pipe(notify('An asset has changed'));
