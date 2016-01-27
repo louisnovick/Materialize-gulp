@@ -1,6 +1,10 @@
 
 # Materialize Gulp Starter Template
 
+## IMPORTANT
+
+I am not maintaining this repo in the slightest.  Many of the packages required could be outdated.  Please clone with a grain of salt.  Thanks!
+
 ## Installation
 
 `npm install`
